@@ -1,0 +1,25 @@
+{
+	"version": "1.0",
+	"packer": [
+		{
+			"name": "baidu",
+			"method": [
+				{
+					"className": "Lcom/baidu/protect/A;",
+					"methodName": "d",
+					"description": "(Ljava/lang/String;)V",
+				},
+			]
+		},
+		{
+			"name": "tecent",
+			"method": [
+				{
+					"className": "Lcom/tencent/StubShell/ShellHelper;",
+					"methodName": "StartShell",
+					"description": "(Ljava/lang/String;I)B",
+				}
+			],
+		}
+	]
+}
